@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81208C0D1D74345E00C4DF2B /* ADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81208C0C1D74345E00C4DF2B /* ADDetailViewController.m */; };
+		81208C101D744F7800C4DF2B /* SplashScreenDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81208C0F1D744F7800C4DF2B /* SplashScreenDataManager.m */; };
+		813AA8501D5971F700A66049 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813AA84F1D5971F700A66049 /* HomeViewController.m */; };
+		813AA8531D59720B00A66049 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813AA8521D59720B00A66049 /* SecondViewController.m */; };
+		813AA8561D59721D00A66049 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813AA8551D59721D00A66049 /* ThirdViewController.m */; };
+		813AA85C1D59801800A66049 /* SplashScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813AA85B1D59801800A66049 /* SplashScreenView.m */; };
 		81707BB01D58A42C00386ECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81707BAF1D58A42C00386ECC /* main.m */; };
 		81707BB31D58A42C00386ECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81707BB21D58A42C00386ECC /* AppDelegate.m */; };
-		81707BB61D58A42C00386ECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81707BB51D58A42C00386ECC /* ViewController.m */; };
 		81707BB91D58A42C00386ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81707BB71D58A42C00386ECC /* Main.storyboard */; };
 		81707BBB1D58A42C00386ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81707BBA1D58A42C00386ECC /* Assets.xcassets */; };
 		81707BBE1D58A42C00386ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81707BBC1D58A42C00386ECC /* LaunchScreen.storyboard */; };
 		81707BC91D58A42C00386ECC /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81707BC81D58A42C00386ECC /* _________Tests.m */; };
 		81707BD41D58A42C00386ECC /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81707BD31D58A42C00386ECC /* _________UITests.m */; };
+		81707BEB1D58A73200386ECC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81707BEA1D58A73200386ECC /* Images.xcassets */; };
+		81707BF01D58A83E00386ECC /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81707BEC1D58A83E00386ECC /* LaunchImage-568h@2x.png */; };
+		81707BF11D58A83E00386ECC /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81707BED1D58A83E00386ECC /* LaunchImage-700@2x.png */; };
+		81707BF21D58A83E00386ECC /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81707BEE1D58A83E00386ECC /* LaunchImage-800-667h@2x.png */; };
+		81707BF31D58A83E00386ECC /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81707BEF1D58A83E00386ECC /* LaunchImage-800-Portrait-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81208C0B1D74345E00C4DF2B /* ADDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDetailViewController.h; sourceTree = "<group>"; };
+		81208C0C1D74345E00C4DF2B /* ADDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDetailViewController.m; sourceTree = "<group>"; };
+		81208C0E1D744F7800C4DF2B /* SplashScreenDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenDataManager.h; sourceTree = "<group>"; };
+		81208C0F1D744F7800C4DF2B /* SplashScreenDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenDataManager.m; sourceTree = "<group>"; };
+		813AA84E1D5971F700A66049 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		813AA84F1D5971F700A66049 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		813AA8511D59720B00A66049 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		813AA8521D59720B00A66049 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		813AA8541D59721D00A66049 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		813AA8551D59721D00A66049 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		813AA85A1D59801800A66049 /* SplashScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenView.h; sourceTree = "<group>"; };
+		813AA85B1D59801800A66049 /* SplashScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenView.m; sourceTree = "<group>"; };
 		81707BAB1D58A42C00386ECC /* 启动屏加启动广告页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "启动屏加启动广告页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81707BAF1D58A42C00386ECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81707BB11D58A42C00386ECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81707BB21D58A42C00386ECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81707BB41D58A42C00386ECC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81707BB51D58A42C00386ECC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81707BB81D58A42C00386ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81707BBA1D58A42C00386ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81707BBD1D58A42C00386ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +71,11 @@
 		81707BCF1D58A42C00386ECC /* 启动屏加启动广告页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "启动屏加启动广告页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81707BD31D58A42C00386ECC /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		81707BD51D58A42C00386ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81707BEA1D58A73200386ECC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81707BEC1D58A83E00386ECC /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		81707BED1D58A83E00386ECC /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		81707BEE1D58A83E00386ECC /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		81707BEF1D58A83E00386ECC /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +126,26 @@
 		81707BAD1D58A42C00386ECC /* 启动屏加启动广告页 */ = {
 			isa = PBXGroup;
 			children = (
+				81707BE11D58A70600386ECC /* LaunchImage */,
 				81707BB11D58A42C00386ECC /* AppDelegate.h */,
 				81707BB21D58A42C00386ECC /* AppDelegate.m */,
-				81707BB41D58A42C00386ECC /* ViewController.h */,
-				81707BB51D58A42C00386ECC /* ViewController.m */,
+				813AA84E1D5971F700A66049 /* HomeViewController.h */,
+				813AA84F1D5971F700A66049 /* HomeViewController.m */,
+				813AA8511D59720B00A66049 /* SecondViewController.h */,
+				813AA8521D59720B00A66049 /* SecondViewController.m */,
+				813AA8541D59721D00A66049 /* ThirdViewController.h */,
+				813AA8551D59721D00A66049 /* ThirdViewController.m */,
+				813AA85A1D59801800A66049 /* SplashScreenView.h */,
+				813AA85B1D59801800A66049 /* SplashScreenView.m */,
+				81208C0E1D744F7800C4DF2B /* SplashScreenDataManager.h */,
+				81208C0F1D744F7800C4DF2B /* SplashScreenDataManager.m */,
+				81208C0B1D74345E00C4DF2B /* ADDetailViewController.h */,
+				81208C0C1D74345E00C4DF2B /* ADDetailViewController.m */,
 				81707BB71D58A42C00386ECC /* Main.storyboard */,
 				81707BBA1D58A42C00386ECC /* Assets.xcassets */,
 				81707BBC1D58A42C00386ECC /* LaunchScreen.storyboard */,
 				81707BBF1D58A42C00386ECC /* Info.plist */,
+				81707BEA1D58A73200386ECC /* Images.xcassets */,
 				81707BAE1D58A42C00386ECC /* Supporting Files */,
 			);
 			path = "启动屏加启动广告页";
@@ -138,6 +175,17 @@
 				81707BD51D58A42C00386ECC /* Info.plist */,
 			);
 			path = "启动屏加启动广告页UITests";
+			sourceTree = "<group>";
+		};
+		81707BE11D58A70600386ECC /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				81707BEC1D58A83E00386ECC /* LaunchImage-568h@2x.png */,
+				81707BED1D58A83E00386ECC /* LaunchImage-700@2x.png */,
+				81707BEE1D58A83E00386ECC /* LaunchImage-800-667h@2x.png */,
+				81707BEF1D58A83E00386ECC /* LaunchImage-800-Portrait-736h@3x.png */,
+			);
+			path = LaunchImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81707BBE1D58A42C00386ECC /* LaunchScreen.storyboard in Resources */,
+				81707BEB1D58A73200386ECC /* Images.xcassets in Resources */,
+				81707BF01D58A83E00386ECC /* LaunchImage-568h@2x.png in Resources */,
+				81707BF11D58A83E00386ECC /* LaunchImage-700@2x.png in Resources */,
+				81707BF31D58A83E00386ECC /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				81707BBB1D58A42C00386ECC /* Assets.xcassets in Resources */,
+				81707BF21D58A83E00386ECC /* LaunchImage-800-667h@2x.png in Resources */,
 				81707BB91D58A42C00386ECC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81707BB61D58A42C00386ECC /* ViewController.m in Sources */,
+				813AA8531D59720B00A66049 /* SecondViewController.m in Sources */,
+				81208C0D1D74345E00C4DF2B /* ADDetailViewController.m in Sources */,
+				813AA8561D59721D00A66049 /* ThirdViewController.m in Sources */,
+				813AA85C1D59801800A66049 /* SplashScreenView.m in Sources */,
+				81208C101D744F7800C4DF2B /* SplashScreenDataManager.m in Sources */,
 				81707BB31D58A42C00386ECC /* AppDelegate.m in Sources */,
 				81707BB01D58A42C00386ECC /* main.m in Sources */,
+				813AA8501D5971F700A66049 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "启动屏加启动广告页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.---------";
@@ -426,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "启动屏加启动广告页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.---------";
@@ -498,6 +558,7 @@
 				81707BDA1D58A42C00386ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81707BDB1D58A42C00386ECC /* Build configuration list for PBXNativeTarget "启动屏加启动广告页Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +567,7 @@
 				81707BDD1D58A42C00386ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81707BDE1D58A42C00386ECC /* Build configuration list for PBXNativeTarget "启动屏加启动广告页UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +576,7 @@
 				81707BE01D58A42C00386ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
